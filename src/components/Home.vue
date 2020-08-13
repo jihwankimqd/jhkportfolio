@@ -1,19 +1,18 @@
 <template>
   <div id="app">
 
-    <div class="container">
+    <!-- <div class="container"> -->
 
       <section id="home">
           <div class="brand_landing">
-            <div class="box">
+            <div id="landing">
               <p>JHK</p>
             </div>
           </div>
-          <div class="bg"></div>
+          <div class="bg"></div> 
       </section>
 
       <section id="about">
-          <!-- <p>about</p> -->
         <div class="svg-wrapper">
 
           <svg height="40" width="150">
@@ -55,7 +54,7 @@
         </div>
       </section>
 
-    </div>
+    <!-- </div> -->
 
   </div>
 </template>
@@ -78,7 +77,15 @@ export default {
   height: 100vh;
   line-height: 1.6;
   overflow: hidden;
-  
+      /* width: 100%;
+      height: 100%; */
+
+      /* CSS Smooth Scroll */
+      overflow-y: scroll; 
+      scroll-behavior: smooth;
+      scroll-snap-type: y mandatory;
+
+      /* overflow: hidden; */  
 }
     * {
       margin: 0;
@@ -86,13 +93,16 @@ export default {
     }
 
    .brand_landing {
+
+
       font-size:30px;
       font-weight: bolder;
       position: relative;
-      margin-top: -20%;
+      /* margin-top: -20%; */
     }
     
     .brand_page {
+      
       font-size:20px;
       font-weight: bolder;
       position: relative;
@@ -124,12 +134,7 @@ export default {
     }
 
     .container {
-      width: 100%;
-      height: 100%;
-      /* CSS Smooth Scroll */
-      overflow-y: scroll; 
-      scroll-behavior: smooth;
-      scroll-snap-type: y mandatory;
+
     }
 
     .lead {
@@ -144,7 +149,7 @@ export default {
       text-align: center;
       width: 100%;
       height: 100vh;
-    
+
       /* Scroll Snap */
       scroll-snap-align: center;
     }
@@ -164,7 +169,7 @@ export default {
 
 
   .svg-wrapper {
-    margin-top: -20%;
+    margin-top: -45px;
     /* position: relative; */
     width: 150px;
     /*make sure to use same height/width as in the html*/
@@ -176,6 +181,7 @@ export default {
   }
 
   #shape {
+    
     stroke-width: 6px;
     fill: transparent;
     /* opacity: 0; */
@@ -184,9 +190,14 @@ export default {
     transition: 1s all ease;
   }
 
+  #landing{
+    /* background-color: green; */
+
+    /* margin-top: 200px; */
+  }
+
   #text {
-    margin-top: -42px;
-    text-align: center;
+    margin-top: -35px;
   }
 
   #text a {
@@ -195,12 +206,13 @@ export default {
     font-weight: 100;
     font-size: 1.1em;
   }
-  
+
   .svg-wrapper:hover #shape {
     stroke-dasharray: 50 0;
     stroke-width: 3px;
     stroke-dashoffset: 0;
     stroke: black;
   }
+
 
 </style>

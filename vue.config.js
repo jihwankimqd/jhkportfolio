@@ -1,4 +1,6 @@
 module.exports = {
+    publicPath: '/jhkportfolio/',
+
     pages: {
       'index': {
         entry: './src/pages/Home/main.js',

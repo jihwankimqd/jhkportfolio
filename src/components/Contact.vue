@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container">
+    <!-- <div class="container"> -->
 
         <section id="contact">
                 <div id="text">
@@ -13,7 +13,7 @@
             
         </section>
 
-    </div>
+    <!-- </div> -->
       
   </div>
 </template>
@@ -34,9 +34,14 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  line-height: 1.6;
+  /* line-height: 1.6; */
   overflow: hidden;
-  
+        /* width: 100%; */
+      /* height: 100%; */
+      /* CSS Smooth Scroll */
+      overflow-y: scroll; 
+      scroll-behavior: smooth;
+      scroll-snap-type: y mandatory;
 }
     * {
       margin: 0;
@@ -45,12 +50,7 @@ export default {
 
 
     .container {
-      width: 100%;
-      height: 100%;
-      /* CSS Smooth Scroll */
-      overflow-y: scroll; 
-      scroll-behavior: smooth;
-      scroll-snap-type: y mandatory;
+
     }
 
     .lead {
@@ -72,7 +72,7 @@ export default {
 
 
   #text {
-    margin-top: -250px;
+    /* margin-top: -250px; */
     text-align: center;
   }
 

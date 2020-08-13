@@ -24,8 +24,8 @@
 
         <div class="col-md-4">
           <div class="img-hover-zoom">
-            <a href="">
-              <img src="../assets/sentiment.png">
+             <a href="https://github.com/jihwankimqd/sentiment_analysis/tree/master">
+              <img src="https://raw.githubusercontent.com/jihwankimqd/sentiment_analysis/master/sentiment_analysis.gif">
             </a>
           </div>
           <p>Sentiment Analysis for Stock Analysis</p>
@@ -75,10 +75,10 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  line-height: 1.6;
+  /* height: 100vh; */
+  /* line-height: 1.6; */
   overflow: hidden;
-  
+  margin-top:50px;
 }
 
 body {
@@ -119,7 +119,7 @@ body {
     }
 
 
-  #text {
+  p {
     /* margin-top: -250px; */
     text-align: center;
   }

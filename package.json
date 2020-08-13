@@ -12,8 +12,12 @@
     "bootstrap-vue": "^2.16.0",
     "core-js": "^3.6.5",
     "mdbvue": "^6.7.1",
+    "swiper": "^6.1.1",
     "vue": "^2.6.11",
-    "vue-burger-menu": "^2.0.5"
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-burger-menu": "^2.0.5",
+    "vue-smooth-scroll": "^1.0.13",
+    "vue-swiper": "^0.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
