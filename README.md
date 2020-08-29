@@ -1,5 +1,5 @@
 # jhkportfolio
-Inspired by Dream Perfect Regime
+Design Inspired by Dream Perfect Regime
 
 ## Project setup
 ```
