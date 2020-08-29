@@ -1,4 +1,5 @@
-# dprtheme
+# jhkportfolio
+Inspired by Dream Perfect Regime
 
 ## Project setup
 ```
